@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TVcontador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Margenleft"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="25dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#E872FC"
+        android:textSize="130sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BotonVuelta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Margenleft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="25dp"
+        android:background="#FFEB3B"
+        android:text="@string/BotonVuelta"
+        android:textColor="#8F00AF"
+        android:textColorHighlight="#801B92"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BotonReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Margenleft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:background="#FFEB3B"
+        android:text="@string/BotonReiniciar"
+        android:textColor="#8F00AF"
+        android:textColorHighlight="#801B92"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/felicitaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:visibility="visible" />
+
+</LinearLayout>
